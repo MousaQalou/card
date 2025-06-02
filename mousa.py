@@ -94,8 +94,8 @@ def add_text_to_image(image, name, job, image_name):
             "M2.jpg": 940,
             "M5.jpg": 570,
             "M4.jpg": 700,
-            "M6.jpg": 620,
-            "M7.jpg": 550
+            "M6.jpg": 550,
+            "M7.jpg": 620
         }
 
         top_padding = padding_values.get(image_name, 570)
