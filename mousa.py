@@ -47,7 +47,6 @@ def audio_autoplay(sound_file):
     except Exception as e:
         st.warning(f"لا يمكن تشغيل الصوت: {e}")
 
-
 def load_arabic_font(font_size=100):
     font_paths = [
         "fonts/Cairo.ttf",               # أفضل خط عربي مخصص
@@ -65,7 +64,6 @@ def load_arabic_font(font_size=100):
                 continue
     st.warning("تعذر تحميل خط عربي عريض. سيتم استخدام الخط الافتراضي.")
     return ImageFont.load_default()
-
 
 # دالة لتنسيق النص على الصورة
 def add_text_to_image(image, name, job, image_name):
